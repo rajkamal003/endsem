@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Student Portal</h1>
+
+<div class="container">
+
+    <!-- Login Form -->
+    <div class="card">
+        <h2>Student Login</h2>
+        <form id="loginForm">
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Enter email" required>
+
+            <label>Password</label>
+            <input type="password" name="password" placeholder="Enter password" required>
+
+            <div class="btn-row">
+                <button type="submit">Login</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Registration Form -->
+    <div class="card">
+        <h2>Student Registration</h2>
+        <form id="registerForm">
+            <label>Full Name</label>
+            <input type="text" name="name" placeholder="Enter full name" required>
+
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Enter email" required>
+
+            <label>Password</label>
+            <input type="password" name="password" placeholder="Enter password" required>
+
+            <label>Confirm Password</label>
+            <input type="password" name="confirmPassword" placeholder="Re-enter password" required>
+
+            <div class="btn-row">
+                <button type="submit">Register</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
